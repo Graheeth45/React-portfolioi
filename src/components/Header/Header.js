@@ -1,8 +1,13 @@
-import React from 'react'
-import {Link}  from 'react-scroll'
+import React,{useState} from 'react'
+import {Link }  from 'react-scroll'
+import Modal from 'react-modal'
 import "./Header.css"
 
+
+Modal.setAppElement('#root')
+
 const Header = () => {
+    const[modelIsOpen , setModelIsOpen] = useState(false)
     return (
         <div className='header'>
             <div className='header__left'>
@@ -24,9 +29,26 @@ const Header = () => {
                 <Link to="contact" smooth={true} duration={200}>
                     <h4>Contact</h4>
                 </Link>
-                <h4 className="button">
-                    Join Me
-                </h4>
+                
+                <div className="button">
+                   <h5 onClick={() => setModelIsOpen(true)}>Join me</h5>
+                    <Modal 
+                    isOpen={modelIsOpen}
+                    shouldCloseOnOverlayClick={false}
+                    onRequestClose={() => setModelIsOpen(false)}
+                    ><form>
+                    <label>
+                      Email Id :
+                      <input type="text" name="name" />
+                    </label>
+                    <input type="submit" value="Submit" />
+                  </form>
+                         <button onClick={() => setModelIsOpen(false)}>Close</button>
+                   </Modal>
+ 
+                </div>
+               
+            
             </div>     
         </div>
     )

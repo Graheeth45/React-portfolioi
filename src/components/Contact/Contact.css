@@ -7,7 +7,7 @@
 
 .Contact
 {
-    min-height: 100vh;
+    min-height: 120vh;
     display: flex;
 }
 
@@ -15,6 +15,10 @@
 {
    margin: auto;
    width: 800px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 30px;
 }
 
 .container_name .form
@@ -25,6 +29,13 @@
     background: white;
     border-radius: 20px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.container_name .form .box
+{
+    position: relative;
+    padding: 10px 0;
+    display: flex;
 }
 
 
@@ -41,11 +52,10 @@
 .container_name .form .box .text
 {
     display: flex;
-    margin-left: 80px;
+    margin-left: 30px;
     font-size: 16px;
     color: black;
     flex-direction: column;
-  
 }
 
 
@@ -59,9 +69,3 @@
     font-weight: 600;
 }
 
-.contact-title
-{
-    margin-top: 6rem;
-    text-align: center;
-    color: white;
-}

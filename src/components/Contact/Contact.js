@@ -10,11 +10,11 @@ const Contact = () => {
         
        <Element className="Contact" name="contact">
            <div className="container_name">
-
-              <div className="form">
-
+            <div className="form">
               <div className="box">
-                 <FontAwesomeIcon icon={faPhone} className="icon"></FontAwesomeIcon>
+                
+                 <FontAwesomeIcon icon={faPhone} className="icon  "></FontAwesomeIcon>
+                
                  <div className="text">
                     <h3>Phone :</h3>
                     <p>9500443401</p>
@@ -25,7 +25,7 @@ const Contact = () => {
               <div className="box">
                  <FontAwesomeIcon icon={faMailBulk} className="icon"></FontAwesomeIcon>
                  <div className="text">
-                    <h3>Email :</h3>
+                    <h3>Email ID :</h3>
                     <p>graheethsmiley@pec.edu</p>
                  </div>
               </div>
