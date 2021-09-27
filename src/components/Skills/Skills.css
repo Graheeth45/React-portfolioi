@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300&family=Glory:wght@100&family=IBM+Plex+Sans+Arabic:wght@100;300&display=swap');
+
+
+.skills
+{
+    display: flex;
+    height: 100vh;
+
+}
+
+.image
+{
+    height: 70%;
+    width: 78%;
+    margin-top: 20%;
+    margin-left: 7%;
+}
+
+.left
+{
+    margin-top: 6%;
+}
+
+.skillcontainer_text
+{
+    color: white;
+    flex: 0.6;
+    text-align: left;
+    max-width: 700px;
+    margin-bottom: 20px;
+    font-family: Cairo;
+}
+
+.skillContainer_skillset > h5
+{
+    font-family: Cairo;
+    font-weight: 300;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+.skillcontainer_text > h1 > span
+{
+    color: red;
+}
+
+.skillcontainer_text > h1{
+    margin-bottom: 4%;
+}

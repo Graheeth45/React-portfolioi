@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300&family=Glory:wght@100&family=IBM+Plex+Sans+Arabic:wght@100;300&display=swap');
+
+.header
+{
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
+
+.header__left
+{
+    flex: 0.4;
+}
+
+.header__left > h1
+{
+    text-align: center;
+    font-family: Cairo;
+    letter-spacing: 1px;
+    padding-right: 10px;
+}
+
+.header__right
+{
+    display: flex;
+    flex: 0.6;
+    justify-content: space-evenly;
+}
+
+.header__right > a > h4 
+{
+    font-family: Cairo;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+}
+
+.header__right > a > h4:hover
+{
+    transform: scale(1.21);   
+}
+
+.button 
+{
+    font-family: Cairo;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+}
+
+.button:hover
+{
+    transform: scale(1.21);
+}
+
+.Span
+{
+    color: red;
+}

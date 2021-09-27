@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300&family=Glory:wght@100&family=IBM+Plex+Sans+Arabic:wght@100;300&display=swap');
+
+.left-img
+{
+     background-color: black;
+}
+
+.img
+{
+     margin-left: 180px;
+}
+
+
+.right-content
+{
+   background-color: black;
+}
+
+.right-content > h1 
+{
+     font-family: Cairo;
+     color: white;
+     margin-left: 70px;
+     margin-top: 200px;
+     letter-spacing: 1px;
+     word-spacing: 4px;
+}
+
+.right-content > h2 
+{
+     font-family: Cairo;
+     word-spacing: 4px;
+     letter-spacing: 1px;
+     color: white;
+     margin-top: 20px;
+     margin-left: 70px;
+}
+
+.right-content > h2 > span
+{
+     color: red;
+}
+
+.ityped-cursor {
+     font-size: 2.2rem;
+     opacity: 1;
+     -webkit-animation: blink 0.3s infinite;
+     -moz-animation: blink 0.3s infinite;
+     animation: blink 0.3s infinite;
+     animation-direction: alternate;
+ }
+
+ @keyframes blink {
+     100% {
+         opacity: 0;
+     }
+ }
+  
+ @-webkit-keyframes blink {
+     100% {
+         opacity: 0;
+     }
+ }
+  
+ @-moz-keyframes blink {
+     100% {
+         opacity: 0;
+     }
+ }
