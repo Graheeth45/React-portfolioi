@@ -10,6 +10,8 @@ import bike from '../../assets/bike.jpg'
 
 const Hobbies = () => {
     return (
+        <>
+        <h1 className="hobbies-title">Hobbies</h1>
         <Element className="Hobbies" name="Hobbies">
             <div className="slider">
                 <div className="images">
@@ -32,6 +34,7 @@ const Hobbies = () => {
                 </div>
             </div>
         </Element>
+        </>
        
     )
 }
