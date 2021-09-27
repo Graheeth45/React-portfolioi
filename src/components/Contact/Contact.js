@@ -7,8 +7,7 @@ import {faGithub , faLinkedinIn , faInstagram} from '@fortawesome/free-brands-sv
 
 const Contact = () => {
     return (
-       <>
-       <h1 className="contact-title">Contact Me</h1>
+        
        <Element className="Contact" name="contact">
            <div className="container_name">
 
@@ -67,7 +66,6 @@ const Contact = () => {
 
            </div>
        </Element>
-       </>
     )
 }
 
