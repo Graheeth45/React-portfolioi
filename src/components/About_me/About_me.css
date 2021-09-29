@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300&family=Glory:wght@100&family=IBM+Plex+Sans+Arabic:wght@100;300&display=swap');
 
+
+.about_me
+{
+    height: 100vh;
+}
+
 .left-img
 {
      background-color: black;
